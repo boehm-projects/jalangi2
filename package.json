@@ -22,10 +22,6 @@
     "rewriting-proxy": "0.5.1",
     "temp": "0.8.1"
   },
-  "bundledDependencies": [
-    "acorn",
-    "esotope"
-  ],
   "scripts": {
     "test": "echo No Tests ATM"
   },
@@ -35,6 +31,7 @@
     "url": "https://github.com/Samsung/jalangi2.git"
   },
   "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
     "mocha": "^2.4.5",
     "shelljs": "^0.6.0"
   },

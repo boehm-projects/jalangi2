@@ -39,7 +39,7 @@ if (typeof J$ === 'undefined') {
 		    var res = babel.transform(code, {
 		      retainLines: true,
 		      presets: ['es2017','es2015'],
-              plugins: ['transform-runtime'],
+              plugins: ['transform-runtime', 'transform-async-to-generator'],
 		    }).code; 
 
 		    if (res && res.indexOf('use strict') != -1) {
